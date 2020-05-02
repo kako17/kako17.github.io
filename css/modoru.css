@@ -1,0 +1,18 @@
+@charset"UTF-8";
+p.modoru{
+	width:8em;
+	border:2px #ddcfe6 solid;
+	text-align:center;
+	padding:0;
+	}
+	p.modoru a{
+	color:black;
+	display:block;
+	text-decoration:none;
+	background-color:#faeaf9;	
+	padding:7px;
+	}
+	p.modoru a:hover{
+	color:#ffffff;
+	background-color:#880658;
+	}

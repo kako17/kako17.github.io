@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+    font-size: 16px;
+    color: #333333;
+    background-color: antiquewhite;
+
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    padding: 30px 0 10px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: right 20px;
+}
+
+header h1 {
+    color: #1889ab;
+    font-size: 30px;
+}
+
+#container {
+    width: 960px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+main {
+    float: right;
+    width: 690px;
+    margin: 0 0 60px;
+}
+
+main h1 {
+    margin: 0 0 20px;
+    padding: 5px 0 5px 15px;
+    border-left: 9px solid #1889ab;
+    border-bottom: 1px dashed #1889ab;
+    color: #1889ab;
+    font-size: 20px;
+}
+
+main h2 {
+    margin: 25px 0 20px;
+    padding: 5px 0 5px 15px;
+    border-left: 9px solid #69cced;
+    color: #1889ab;
+    font-size: 18px;
+}
+
+main h3 {
+    margin: 25px 0 20px;
+    padding: 0 0 4px;
+    border-bottom: 1px dashed #d4d4d4;
+    color: #3A3A3A;
+    font-size: 16px;
+}
+
+/*=======nav======*/
+nav {
+    float: left;
+    width: 240px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #eee;
+}
+
+nav ul li a {
+    display: block;
+    color: #0896be;
+    padding: 10px;
+    font-size: 15px;
+}
+
+nav ul li a.current {
+    background-color: #1889ab;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.current2 {
+    background-color: #69cceb;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #1889ab;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li a.level2 {
+    padding-left: 25px;
+}
+
+nav li a.level3 {
+    padding-left: 40px;
+}
+
+nav li a.level2:hover {
+    background-color: #69cceb;
+    color: #000;
+}
+
+nav h1 {
+    font-size: 20px;
+    color: #1889ab;
+    margin: 25px 0 20px;
+}
+
+nav figure {
+    padding: 5px 0;
+    float: right;
+}
+
+nav p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+footer {
+    clear: both;
+    padding: 30px 0 0;
+    border-top: 1px dashed #d4d4d4;
+}
+
+footer p {
+    text-align: center;
+    font-size: 18px;
+    color: #1889ab;
+}

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column3 {
+    width: 220px;
+    float: left;
+}
+
+main h3 {
+    text-align: center;
+}
